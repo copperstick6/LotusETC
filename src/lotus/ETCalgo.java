@@ -49,7 +49,7 @@ public int returnMarketVal()
 //algorithm for checking for the highest buy bid currently
 //pre: acquire the list of all bid orders
 //post return the price at which to buy at
-  public voidt findHighestBid(ArrayList<Integer> currentListofBuyOrders)
+  public void findHighestBid(ArrayList<Integer> currentListofBuyOrders)
   {
   Iterator(Integer) it = currentListofBuyOrders.iterator();
   int maxVal = Integer.MIN_VALUE;
